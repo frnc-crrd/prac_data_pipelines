@@ -1,0 +1,26 @@
+# ============================================================
+# Pipeline de Auditoria CxC para Microsip
+# ============================================================
+
+# Base de datos Firebird
+firebird-driver>=1.10.0
+
+# Manipulacion de datos
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Exportacion a Excel
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Graficas (reporte PDF)
+matplotlib>=3.8.0
+
+# Generacion de PDF
+reportlab>=4.0.0
+
+# Dashboard Streamlit (opcional, solo para ejecutar dashboard/)
+streamlit>=1.35.0
+
+# Utilidades
+python-dateutil>=2.9.0

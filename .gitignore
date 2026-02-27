@@ -1,0 +1,20 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+
+# Python: Archivos temporales de compilación
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración sensible (¡No subas tus contraseñas!)
+.env
+settings.py
+
+# Salidas y reportes (Datos generados)
+output/
+*.xlsx
+*.csv
+*.pdf
